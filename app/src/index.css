@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Animation States */
+.anim-fade-up,
+.anim-fade-left,
+.anim-fade-right,
+.anim-zoom-in {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 900ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
+}
+
+.anim-fade-up {
+    transform: translateY(35px);
+}
+
+.anim-fade-left {
+    transform: translateX(-40px);
+}
+
+.anim-fade-right {
+    transform: translateX(40px);
+}
+
+.anim-zoom-in {
+    transform: scale(0.92);
+}
+
+.in-view.anim-fade-up,
+.in-view.anim-fade-left,
+.in-view.anim-fade-right {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.in-view.anim-zoom-in {
+    opacity: 1;
+    transform: scale(1);
+}
