@@ -64,7 +64,7 @@ export const portfolioData: PortfolioData = {
         image: '/embedded-systems.webp',
         paragraphs: [
             'Ονομάζομαι Δημήτρης Παπαδημητρίου και μου αρέσει να δημιουργώ καινοτόμες λύσεις που βελτιώνουν την καθημερινή ζωή των ανθρώπων.',
-            'Τα ενδιαφέροντά μου περιστρέφονται γύρω από το web development και το IoT.',
+            'Τα ενδιαφέροντά μου περιστρέφονται γύρω από το web development και το IoT σε συνδυασμό με τα Embedded Systems.',
         ],
     },
     education: {
@@ -90,6 +90,13 @@ export const portfolioData: PortfolioData = {
             description: 'Ένα repo που περιέχει πολλά προγράμματα για έλεγχο περιφερειακών του Cortex-M4.',
             link: 'https://github.com/jimpap-09/stm32mp1',
             image: '/nucleo-g474re.jpg',
+        },
+        {
+            title: 'clearsky',
+            category: 'SaaS',
+            description: 'Ένα repo που προσομοιώνει σάιτ για φοιτητές. Επιτρέπει login as student or instructor. Δίνει την δυνατότητα στον φοιτητή να δει τους βαθμούς στα μαθήματά του για διάφορες εξεταστικές και μπορεί να ζητήσει και αναβαθμολόγηση. Ο instructor από την άλλη, μπορεί να κάνει post αρχικούς και τελικούς βαθμούς στην εκάστοτε εξεταστική.',
+            link: 'https://github.com/jimpap-09/clearsky',
+            image: '/clearsky.png',
         }
     ],
     skills: [
